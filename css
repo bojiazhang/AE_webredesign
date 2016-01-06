@@ -1,0 +1,736 @@
+/*Homepage CSS */
+
+#aeoStyleImage {display: block;
+    margin-left: auto;
+    margin-right: auto;
+width:1000px;
+height:400px;}
+
+
+.indexCenter {
+
+text-align:center;
+}
+
+/*Slider*/
+
+.cbp-fwslider {
+	position: relative;
+	margin: 0 0 10px;
+	overflow: hidden;
+	padding: 40px 0 60px;
+}
+
+.cbp-fwslider ul {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	list-style-type: none;
+}
+
+.cbp-fwslider ul li {
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	transform: translateZ(0);
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.cbp-fwslider ul li > a,
+.cbp-fwslider ul li > div {
+	display: block;
+	text-align: center;
+	outline: none;
+}
+
+.cbp-fwslider ul li > a img {
+	border: none;
+	display: block;
+	margin: 0 auto;
+	max-width: 75%;
+}
+
+.cbp-fwslider nav span {
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	height: 100px;
+	background: #c0c0c0;
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	margin-top: -50px;
+	line-height: 100px;
+	cursor: pointer;
+	font-weight: normal;
+}
+
+.cbp-fwslider nav span:hover {
+	background: #000066;
+}
+
+.cbp-fwslider nav span.cbp-fwnext {
+	right: 0px;
+}
+
+.cbp-fwslider nav span.cbp-fwprev {
+	left: 0px;
+}
+
+.cbp-fwdots {
+	position: absolute;
+	bottom: 0px;
+	white-space: nowrap;
+	text-align: center;
+	width: 100%;
+}
+
+.cbp-fwdots span {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: #ddd;
+	margin: 4px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.cbp-fwdots span:hover {
+	background: #999;
+}
+
+.cbp-fwdots span.cbp-fwcurrent {
+	background: #000066;
+	box-shadow: 0 0 0 2px #000066;
+	-webkit-transition: box-shadow 0.2s ease-in-out;
+	-moz-transition: box-shadow 0.2s ease-in-out;
+	transition: box-shadow 0.2s ease-in-out;
+}
+
+/*Nav CSS*/
+
+ul li {display:inline-block;
+margin: 0 2%; 
+padding: .2%;
+font-family:Calibri, sans-serif;}	
+
+.small-nav{font-size:1em;
+float:center;
+padding-left:55%;
+}
+
+.small-nav a:hover {text-decoration:underline;}
+
+.main-nav{font-size:1.2em;
+font-family:Calibri, sans-serif;
+padding-left:8%;}
+
+a {color: #000;
+text-decoration: none;}
+ 
+a:visited {color: #000;
+text-decoration: none;}
+ 
+.main-nav a:hover {text-decoration: none;
+background-color:#000;
+color: #fff;
+} 
+
+
+.footerImage {
+width:20px;
+height:20px;
+}
+
+.footerIconImages {
+width:30px;
+height:30px;}
+
+.small {font-size:.8em;}
+		
+
+#site-footer{
+color:#000;
+font-size:12.5px;
+font-family:Arial, sans-serif;
+margin-top:20px;
+padding-right:10%;
+padding-bottom:32px;
+position:relative;
+text-transform:uppercase;
+width:100%;
+line-height:150%;
+padding-left:12%;
+}
+
+
+
+#site-footer .Bottom-Footer{
+margin-left:auto;
+margin-right:auto;
+}
+
+
+
+#site-footer .Top-Footer{border-bottom:1px solid #ccc;
+border-top:1px solid #ccc;
+display:table;
+margin-bottom:11px;
+padding-top:36px;
+width:100%;}
+
+#site-footer .Top-Footer .footer-column{display:table-cell;}
+
+
+
+#site-footer .Top-Footer .footer-column .column-content{display:inline-block;
+text-align:left;
+vertical-align:top;
+
+}
+
+#site-footer div.Bottom-Footer{
+font-size:.8em;
+font-family:Arial;
+margin-bottom:15px;
+text-align:left;
+
+}
+
+.footerLinkPadding {
+padding-right:2%;
+}
+
+.footerCopyright {
+text-transform:none;
+}
+
+
+#site-footer a:hover{
+text-decoration: underline;}
+
+
+
+/* Site Footer 2 */
+
+#site-footer2{
+color:#000;
+font-size:12.5px;
+font-family:Arial, sans-serif;
+margin-top:20px;
+padding-right:10%;
+padding-bottom:32px;
+position:relative;
+text-transform:uppercase;
+line-height:150%;
+padding-left:12%;
+width:980px;
+}
+
+
+
+#site-footer2 .Bottom-Footer{
+margin-left:auto;
+margin-right:auto;
+}
+
+
+
+#site-footer2 .Top-Footer{border-bottom:1px solid #ccc;
+border-top:1px solid #ccc;
+display:table;
+margin-bottom:11px;
+padding-top:36px;
+width:100%;}
+
+#site-footer2 .Top-Footer .footer-column{display:table-cell;}
+
+
+
+#site-footer2 .Top-Footer .footer-column .column-content{display:inline-block;
+text-align:left;
+vertical-align:top;
+}
+
+#site-footer2 div.Bottom-Footer{
+font-size:.8em;
+font-family:Arial;
+margin-bottom:15px;
+text-align:left;
+
+}
+
+
+#site-footer2 a:hover{
+text-decoration: underline;}
+
+
+
+/* Cart CSS Document */
+
+body, header, div, ol, li, h1,h2, footer {margin:0; padding:2px;}
+
+#cartUnderline {
+text-decoration:underline;
+}
+
+
+#Wrapper{font-family:Calibri, sans-serif;
+width:98%; 
+xoverflow:auto; 
+margin-left:10%;
+}
+
+#Left{float:left;
+width:45%;
+font:arial, sans-serif;;
+font-size:.9em;;}
+
+#space{padding-right:450px;
+font-family:Calibri, sans-serif;
+font-size:1em;}
+
+#Left-Top {clear:both;
+display:inline-block;
+border:thick #2B3C7F;
+background-color:#2B3C7F;
+color:#fff;
+font-size:16px;
+font-style:bold;
+font:small-caps;
+position:relative;}
+
+.secondPriceListing {
+position:absolute;
+top:75px;
+right:5px;
+font-size:1em;
+color:#000;
+font-weight:bold;
+}
+
+#Left-Top p {display:inline-block;
+margin-left:7px;
+margin-right:7px;}
+
+.left-middle { 
+float:left;  
+margin-right:20px;}
+
+#Left-low {list-style:none;
+display:inline-block;
+xfloat:left;
+clear:left; 	
+height:170px;
+}
+
+.img{height:160px; width:132px; align:botton}
+
+.imgFloat{float:left;
+margin-bottom:8px;
+margin-left:8px; 
+margin-right:8px;}
+
+#Right{
+	display: inline-block;
+	float: left;
+	padding-left:8%;
+	width: 300px;
+}
+
+#total{
+	font-style: bold;
+	border-top-width: thin 1px;
+	border-top-style: solid;
+	border-color: #000;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+#Rspace p {display:inline-block;
+margin-left:7px;
+margin-right:7px;}
+
+
+#Rspace{background-color: #5e83d1;
+	color: #fff;
+	font-size: 16px;
+	font-style: bold;
+	font: small-caps;
+	clear: both;
+	border-width: thick;
+	border-color: #2B3C7F;}
+
+#top{background-color:#d1daef;
+padding:2%;}
+
+
+#promocode{margin-top:10px;}
+
+
+#checkout{margin-top:10px;}
+
+
+.clear {clear:both;}
+
+/* Men and Women Selection Page CSS*/
+
+
+#menWomenImage {display: block;
+    margin-left: auto;
+    margin-right: auto;
+height:660px;
+}
+
+/* Button on Selection Page*/
+.selectionNav {
+	padding-top: 1em;
+	font-size: 0.9em;
+	text-align:center;
+}
+
+.selectionNav a {
+	text-decoration: none;
+	outline: none;
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0.7em .5em;
+	border: 3px solid #fff;
+	color: #fff;
+	font-weight: 700;
+}
+
+.selectionNav a:hover,
+.selectionNav a.selectionLink,
+.selectionNav a.selectionLink:hover {
+	opacity: 0.6;
+}
+
+.selectionNav2 {
+	padding-top: 1em;
+	font-size: 0.9em;
+	text-align:center;
+}
+
+.selectionNav2 a {
+	text-decoration: none;
+	outline: none;
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0.7em .5em;
+	border: 3px solid #000;
+	color: #000;
+	font-weight: 700;
+}
+
+.selectionNav2 a:hover,
+.selectionNav2 a.selectionLink,
+.selectionNav2 a.selectionLink:hover {
+	opacity: 0.6;
+}
+
+/*Select Men or Women */
+
+.box {
+	width: 300px;
+	height: 460px;
+	position: relative;
+	background: rgba(255,255,255,0);
+	display: inline-block;
+	margin: 0 10px;
+	cursor: pointer;
+	color: #2c3e50;
+	box-shadow: inset 0 0 0 3px #2c3e50;
+	-webkit-transition: background 0.4s 0.5s;
+	transition: background 0.4s 0.5s;
+}
+
+.box:hover {
+	background: rgba(255,255,255,0);
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.box h3 {
+	font-family: Calibri, sans-serif;
+	font-size: 2em;
+	line-height: 370px;
+	text-align:center;
+	font-weight: 400;
+	width: 100%;
+	color:#fff;
+}
+
+
+.box svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.box svg line {
+	stroke-width: 3;
+	stroke: #ecf0f1;
+	fill: none;
+	-webkit-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+}
+
+.box:hover svg line {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.box svg line.top,
+.box svg line.bottom {
+	stroke-dasharray: 330 240; 
+}
+
+.box svg line.left,
+.box svg line.right {
+	stroke-dasharray: 490 400;
+}
+
+.box:hover svg line.top {
+	-webkit-transform: translateX(-600px);
+	transform: translateX(-600px);
+}
+
+.box:hover svg line.bottom {
+	-webkit-transform: translateX(600px);
+	transform: translateX(600px);
+}
+
+.box:hover svg line.left {
+	-webkit-transform: translateY(920px);
+	transform: translateY(920px);
+}
+
+.box:hover svg line.right {
+	-webkit-transform: translateY(-920px);
+	transform: translateY(-920px);
+}
+
+.demo-4 .box {
+	box-shadow: none;
+	background: rgba(0,0,0,0.4);
+	-webkit-transition: none;
+	transition: none;
+	background-image: url(../images/womensJean.png);
+	margin-left:25%;;
+}
+
+.demo-4 .box h3,
+.demo-4 .box span {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.demo-4 .box:hover h3,
+.demo-4 .box:hover span {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.demo-4 .box svg line {
+	stroke-width: 30;
+	-webkit-transition: all .4s;
+	transition: all .4s;
+}
+
+.demo-4 .box:hover svg line {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.demo-4 .box:hover svg line {
+	stroke-width: 0;
+}
+
+.demo-4 .box svg line.top,
+.demo-4 .box svg line.bottom {
+	stroke-dasharray: 300; 
+}
+
+.demo-4 .box svg line.left,
+.demo-4 .box svg line.right {
+	stroke-dasharray: 460;
+}
+
+.demo-4 .box:hover svg line.top {
+	-webkit-transform: translateX(-300px);
+	transform: translateX(-300px);
+}
+
+.demo-4 .box:hover svg line.bottom {
+	-webkit-transform: translateX(300px);
+	transform: translateX(300px);
+}
+
+.demo-4 .box:hover svg line.left {
+	-webkit-transform: translateY(460px);
+	transform: translateY(460px);
+}
+
+.demo-4 .box:hover svg line.right {
+	-webkit-transform: translateY(-460px);
+	transform: translateY(-460px);
+}
+
+/*Box 2*/
+
+.box2 {
+	width: 300px;
+	height: 460px;
+	position: relative;
+	background: rgba(255,255,255,0);
+	display: inline-block;
+	margin: 0 10px;
+	cursor: pointer;
+	color: #2c3e50;
+	box-shadow: inset 0 0 0 3px #2c3e50;
+	-webkit-transition: background 0.4s 0.5s;
+	transition: background 0.4s 0.5s;
+}
+
+.box2:hover {
+	background: rgba(255,255,255,0);
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.box2 h3 {
+	font-family: Calibri, sans-serif;
+	font-size: 2em;
+	line-height: 370px;
+	text-align:center;
+	font-weight: 400;
+	width: 100%;
+	color:#fff;
+}
+
+
+.box2 svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.box2 svg line {
+	stroke-width: 3;
+	stroke: #ecf0f1;
+	fill: none;
+	-webkit-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+}
+
+.box2:hover svg line {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.box svg line.top,
+.box svg line.bottom {
+	stroke-dasharray: 330 240; 
+}
+
+.box2 svg line.left,
+.box2 svg line.right {
+	stroke-dasharray: 490 400;
+}
+
+.box2:hover svg line.top {
+	-webkit-transform: translateX(-600px);
+	transform: translateX(-600px);
+}
+
+.box2:hover svg line.bottom {
+	-webkit-transform: translateX(600px);
+	transform: translateX(600px);
+}
+
+.box2:hover svg line.left {
+	-webkit-transform: translateY(920px);
+	transform: translateY(920px);
+}
+
+.box2:hover svg line.right {
+	-webkit-transform: translateY(-920px);
+	transform: translateY(-920px);
+}
+
+.demo-4 .box2 {
+	box-shadow: none;
+	background: rgba(0,0,0,0.4);
+	-webkit-transition: none;
+	transition: none;
+	background-image: url(../images/mensJean.png);
+	margin-left:4%;
+}
+
+.demo-4 .box2 h3,
+.demo-4 .box2 span {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.demo-4 .box2:hover h3,
+.demo-4 .box2:hover span {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.demo-4 .box2 svg line {
+	stroke-width: 30;
+	-webkit-transition: all .4s;
+	transition: all .4s;
+}
+
+.demo-4 .box2:hover svg line {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.demo-4 .box2:hover svg line {
+	stroke-width: 0;
+}
+
+.demo-4 .box2 svg line.top,
+.demo-4 .box2 svg line.bottom {
+	stroke-dasharray: 300; 
+}
+
+.demo-4 .box2 svg line.left,
+.demo-4 .box2 svg line.right {
+	stroke-dasharray: 460;
+}
+
+.demo-4 .box2:hover svg line.top {
+	-webkit-transform: translateX(-300px);
+	transform: translateX(-300px);
+}
+
+.demo-4 .box2:hover svg line.bottom {
+	-webkit-transform: translateX(300px);
+	transform: translateX(300px);
+}
+
+.demo-4 .box2:hover svg line.left {
+	-webkit-transform: translateY(460px);
+	transform: translateY(460px);
+}
+
+.demo-4 .box2:hover svg line.right {
+	-webkit-transform: translateY(-460px);
+	transform: translateY(-460px);
+}
